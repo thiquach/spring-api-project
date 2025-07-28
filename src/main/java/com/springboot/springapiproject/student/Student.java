@@ -1,8 +1,13 @@
 package com.springboot.springapiproject.student;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.time.LocalDate;
 
+@Entity
 public class Student {
+    @Id
     private Long id;
     private String name;
     private String email;
@@ -26,6 +31,10 @@ public class Student {
         this.email = email;
         this.dob = dob;
         this.age = age;
+    }
+
+    public Student() {
+
     }
 
     public Long getId() {
