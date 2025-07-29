@@ -1,4 +1,4 @@
-package com.springboot.springapiproject.entities.student;
+package com.springboot.springapiproject.entities;
 
 import org.springframework.stereotype.Service;
 
