@@ -1,5 +1,6 @@
-package com.springboot.springapiproject.entities;
+package com.springboot.springapiproject.controllers;
 
+import com.springboot.springapiproject.entities.Student;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
