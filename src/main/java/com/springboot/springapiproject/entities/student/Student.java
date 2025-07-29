@@ -1,4 +1,4 @@
-package com.springboot.springapiproject.student;
+package com.springboot.springapiproject.entities.student;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,5 +1,7 @@
-package com.springboot.springapiproject.student;
+package com.springboot.springapiproject.controllers;
 
+import com.springboot.springapiproject.entities.student.Student;
+import com.springboot.springapiproject.entities.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
